@@ -16,3 +16,15 @@ Faça um Programa que pergunte quanto você ganha por hora e o número de horas 
     Obs.: Salário Bruto - Descontos = Salário Líquido. 
 '''
 
+valorHora = float(input("Informe quanto ganha por hora: "))
+horasMes = int(input("Informe quantas horas trabalhou no mês: "))
+salarioBruto = valorHora * horasMes
+ir = salarioBruto * 0.11
+inss = salarioBruto * 0.08
+sindicato = salarioBruto * 0.05
+slarioLiquido = salarioBruto - ir - inss - sindicato
+print("+ Salário Bruto : R$ %.2f" % salarioBruto)
+print("- IR (11%%) : R$ %.2f" % ir)
+print("- INSS (8%%) : R$ %.2f" % inss)
+print("- Sindicato (5%%) : R$ %.2f" % sindicato)
+print("= Salário \nLiquido : R$ %.2f" % slarioLiquido)
