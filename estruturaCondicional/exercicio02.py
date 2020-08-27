@@ -4,4 +4,5 @@ numero = input("Informe um número: ")
 
 if int(numero) < 0:
     print("O número " + numero + " é negativo")
-else : print("O número " + numero + " é positivo")
+else:
+    print("O número " + numero + " é positivo")
