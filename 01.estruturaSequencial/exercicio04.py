@@ -1,6 +1,6 @@
 # Faça um Programa que peça as 4 notas bimestrais e mostre a média
 
-print("Cálculo Notas")
+print("Cálculo da Média de Notas")
 nota1 = float(input("Informe a 1ª nota:"))
 nota2 = float(input("Informe a 2ª nota:"))
 nota3 = float(input("Informe a 3ª nota:"))
