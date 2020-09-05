@@ -11,15 +11,30 @@ Informe também se as duas strings possuem o mesmo comprimento e são iguais ou 
     As duas strings possuem conteúdo diferente.
 '''
 
-string1 = input("Informe a primeira string: ")
-string2 = input("Informe a segunda string: ")
+
+def informarString():
+    string = input("Informe a string: ")
+    return string
+
+
+def imprimirString(string, numero):
+    print("String", numero, " :", string)
+
+
+def verificarTamanhoString(string):
+    print("Tamanho de ", string, " :", len(string), " caracteres.")
+
+
+string1 = informarString()
+string2 = informarString()
 
 print("Compara Duas Strings")
-print("String 1:", string1)
-print("String 2:", string2)
+imprimirString(string1, 1)
+imprimirString(string2, 2)
 
-print("Tamanho de ", string1, " :", len(string1), " caracteres.")
-print("Tamanho de ", string2, " :", len(string2), " caracteres.")
+print("Verificar Tamanho das Strings")
+verificarTamanhoString(string1)
+verificarTamanhoString(string2)
 
 if len(string1) == len(string2):
     print("As strings possuem o mesmo tamanho!")
