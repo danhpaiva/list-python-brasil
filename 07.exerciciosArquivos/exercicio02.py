@@ -34,3 +34,61 @@ A conversão da espaço ocupado em disco, de bytes para megabytes deverá ser fe
 que será chamada pelo programa principal. 
 O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal. 
 '''
+
+with open('usuarios.txt') as arquivo:
+    listaUsuarios = arquivo.read().splitlines()
+    arquivo.close()
+
+
+def main():
+    arquivoEscrita = open("relatório.txt", "w")
+
+    arquivoEscrita.write(
+        "ACME Inc.               Uso do espaço em disco pelos usuários\n------------------------------------------------------------------------\n")
+    arquivoEscrita.write("Nr.\tUsuário\t\tEspaço utilizado\t\t% do uso\n")
+
+    contador = 1  # Pegar índice de usuários
+    global totalEspaco
+    totalEspaco = 0
+
+    for linha in listaUsuarios:  # For para pegar o total de espaço utilizado do HD
+        valor = linha.split()
+        totalEspaco += int(valor[1])
+
+    totalEspaco = conversaoDados(totalEspaco)
+
+    for dado in listaUsuarios:  # for para manipular a impressão dos dados dos usuários
+        valor = dado.split()
+        arquivoEscrita.write(str(contador) + "\t" + str(valor[0]) + "\t\t" + str(
+            conversaoDados(valor[1])) + "\t\t\t" + str(calculoPercentual(valor[1], totalEspaco)) + "\n")
+        contador += 1
+
+    arquivoEscrita.write("\nEspaço total ocupado:" + str(totalEspaco) + "\n")
+    arquivoEscrita.write("Espaço médio ocupado:" +
+                         str(calcularMedia((contador - 1), totalEspaco)))
+    arquivoEscrita.close()
+
+
+def conversaoDados(valor1):
+    espaco = float(valor1)
+    espaco /= 1048576  # 1024 x 1024
+    espaco = round(espaco, 2)  # Função para pegar duas casas decimais
+    return espaco
+
+
+def calculoPercentual(valor1, totalEspaco):
+    # Chamando a conversão para pegar o valor correto para a porcentagem
+    porcentagem = conversaoDados(valor1)
+    porcentagem /= totalEspaco
+    porcentagem *= 100
+    porcentagem = round(porcentagem, 2)
+    return porcentagem
+
+
+def calcularMedia(contador, totalEspaco):
+    media = totalEspaco / contador
+    media = round(media, 2)
+    return media
+
+
+main()  # Ínicio Programa
