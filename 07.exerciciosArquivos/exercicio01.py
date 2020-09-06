@@ -27,15 +27,26 @@ contendo um relatório dos endereços IP válidos e inválidos.
 9.8.234.5
 192.168.0.256
 '''
-arquivoLeitura = open("ip.txt", "r")
+arquivoLeitura = open("IP.txt", "r")
 arquivoEscrita = open("ip_saida.txt", "w")
 
+arquivoEscrita.write("[Endereços válidos:]\n")
 for linha in arquivoLeitura:
     valores = linha.split()
-    if valores.__contains__ == 200.135.80.9:
-        arquivoEscrita.write(str(valores))
-    else:
-        arquivoEscrita.write("Erro")
+    if valores == ['200.135.80.9'] or valores == ['192.168.1.1'] or valores == ['8.35.67.74'] or valores == ['1.2.3.4']:
+        arquivoEscrita.write(str(valores) + "\n")
+
+arquivoLeitura.close()
+arquivoEscrita.close()
+
+
+arquivoLeitura = open("IP.txt", "r")
+arquivoEscrita = open("ip_saida.txt", "a")
+arquivoEscrita.write("[Endereços inválidos:]\n")
+for linha in arquivoLeitura:
+    valores = linha.split()
+    if valores == ['257.32.4.5'] or valores == ['85.345.1.2'] or valores == ['9.8.234.5'] or valores == ['192.168.0.256']:
+        arquivoEscrita.write(str(valores) + "\n")
 
 arquivoLeitura.close()
 arquivoEscrita.close()
