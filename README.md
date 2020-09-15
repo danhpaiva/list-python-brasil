@@ -2,6 +2,7 @@
 
 Lista retirada do endereço: https://wiki.python.org.br/ListaDeExercicios
 
+## Descrição
 Esta é uma lista com sugestões de programas para iniciantes em programação.<br> 
 Os exercícios podem ser implementados em pseudo-código, Python, C, C++, Java, Pascal ou em qualquer outra linguagem.<br>
 Os exercícios estão divididos em categorias e procuram obedecer uma ordem de dificuldade crescente.<br>
