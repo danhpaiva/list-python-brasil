@@ -27,3 +27,7 @@ elif media >= 7.5 and media < 9:
     print('Conceito: B\nAprovado')
 elif media >= 6 and media < 7.5:
     print('Conceito: C\nAprovado')
+elif media >= 4 and media < 6:
+    print('Conceito: D\nReprovado')
+else:
+    print('Conceito: E\nReprovado')
