@@ -3,6 +3,6 @@
 list_numbers = []
 
 for number in range(5):
-    list_numbers.append(input('Informe o número: '))
+    list_numbers.append(int(input('Informe o número: ')))
 
 print(list_numbers)
