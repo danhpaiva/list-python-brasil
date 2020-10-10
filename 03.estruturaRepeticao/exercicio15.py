@@ -20,3 +20,4 @@ else:
         last_number = term
         count += 1
         print(term)
+
