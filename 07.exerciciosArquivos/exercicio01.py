@@ -27,6 +27,9 @@ contendo um relatório dos endereços IP válidos e inválidos.
 9.8.234.5
 192.168.0.256
 '''
+# -------------
+# author: Paiva
+# -------------
 arquivoLeitura = open("IP.txt", "r")
 arquivoEscrita = open("ip_saida.txt", "w")
 

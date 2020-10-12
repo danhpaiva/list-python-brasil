@@ -34,6 +34,9 @@ A conversão da espaço ocupado em disco, de bytes para megabytes deverá ser fe
 que será chamada pelo programa principal. 
 O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal. 
 '''
+# -------------
+# author: Paiva
+# -------------
 
 with open('usuarios.txt') as arquivo:
     listaUsuarios = arquivo.read().splitlines()
