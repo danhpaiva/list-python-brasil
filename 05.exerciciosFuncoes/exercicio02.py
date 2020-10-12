@@ -10,6 +10,9 @@ Faça um programa para imprimir:
     para um n informado pelo usuário. 
     Use uma função que receba um valor n inteiro imprima até a n-ésima linha. 
 '''
+# -------------
+# author: Paiva
+# -------------
 
 def ImprimirSequencia(n):
     for c in range(1, n + 1):
