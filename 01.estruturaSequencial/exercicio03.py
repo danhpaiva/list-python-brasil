@@ -1,4 +1,7 @@
 # Faça um Programa que peça dois números e imprima a soma.
+# -------------
+# author: Paiva
+# -------------
 
 numero1 = int(input("Digite o 1º número: "))
 

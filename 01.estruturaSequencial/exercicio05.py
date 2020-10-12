@@ -1,4 +1,7 @@
 # Faça um Programa que converta metros para centímetros.
+# -------------
+# author: Paiva
+# -------------
 
 metro = float(input("Informe o metro a ser convertido: "))
 
