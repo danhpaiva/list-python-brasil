@@ -12,6 +12,9 @@ lhe contraram para desenvolver o programa que calculará os reajustes.
     - o percentual de aumento aplicado;
     - o valor do aumento;
     - o novo salário, após o aumento. '''
+# -------------
+# author: Paiva
+# -------------
 
 salario = float(input('Informe o salário: '))
 

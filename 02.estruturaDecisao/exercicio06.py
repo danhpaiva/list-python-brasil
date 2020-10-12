@@ -1,4 +1,7 @@
 # Faça um Programa que leia três números e mostre o maior deles.
+# -------------
+# author: Paiva
+# -------------
 
 numeroUm = float(input('Digite o primeiro número: '))
 numeroDois = float(input('Digite o segundo número: '))

@@ -11,6 +11,9 @@ e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
 O algoritmo deve mostrar na tela:
 as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C 
 ou “REPROVADO” se o conceito for D ou E.'''
+# -------------
+# author: Paiva
+# -------------
 
 nota_parcial_um = float(input('Informe a primeira nota: '))
 nota_parcial_dois = float(input('Informe a segunda nota: '))
