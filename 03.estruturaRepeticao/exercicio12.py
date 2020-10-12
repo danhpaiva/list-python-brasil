@@ -6,6 +6,9 @@ A saída deve ser conforme o exemplo abaixo:
     5 X 2 = 10
     ...
     5 X 10 = 50'''
+# -------------
+# author: Paiva
+# -------------
 
 print('Tabuada de Multiplicação')
 

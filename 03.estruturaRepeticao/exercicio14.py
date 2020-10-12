@@ -1,5 +1,8 @@
 '''Faça um programa que peça 10 números inteiros, calcule e mostre a 
 quantidade de números pares e a quantidade de números impares.'''
+# -------------
+# author: Paiva
+# -------------
 
 numbers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 counter = 1

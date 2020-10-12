@@ -1,5 +1,8 @@
 '''Faça um programa que receba dois números inteiros
 e gere os números inteiros que estão no intervalo compreendido por eles.'''
+# -------------
+# author: Paiva
+# -------------
 
 number_one = int(input('Informe o primeiro número inteiro: '))
 number_two = int(input('Informe o segundo número inteiro: '))

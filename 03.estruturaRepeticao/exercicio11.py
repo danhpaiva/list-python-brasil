@@ -1,4 +1,7 @@
 # Altere o programa anterior para mostrar no final a soma dos números.
+# -------------
+# author: Paiva
+# -------------
 
 number_one = int(input('Informe o primeiro número inteiro: '))
 number_two = int(input('Informe o segundo número inteiro: '))
