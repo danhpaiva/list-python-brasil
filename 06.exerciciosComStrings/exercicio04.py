@@ -6,6 +6,9 @@ FULA
 FULAN
 FULANO
 '''
+# -------------
+# author: Paiva
+# -------------
 
 
 def informarNome():

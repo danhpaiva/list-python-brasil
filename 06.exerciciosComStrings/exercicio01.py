@@ -10,6 +10,9 @@ Informe também se as duas strings possuem o mesmo comprimento e são iguais ou 
     As duas strings são de tamanhos diferentes.
     As duas strings possuem conteúdo diferente.
 '''
+# -------------
+# author: Paiva
+# -------------
 
 
 def informarString():

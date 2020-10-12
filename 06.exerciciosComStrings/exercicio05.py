@@ -6,6 +6,9 @@ FUL
 FU
 F
 '''
+# -------------
+# author: Paiva
+# -------------
 
 
 def informarNome():

@@ -6,6 +6,9 @@ A
 N
 O
 '''
+# -------------
+# author: Paiva
+# -------------
 
 def informarNome():
     nome = input("Informe seu nome: ")
