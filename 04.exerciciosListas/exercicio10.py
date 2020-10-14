@@ -12,8 +12,8 @@ lista_tres = []
 numero_lista_dois = 0
 
 for i in range(10):
-    lista_um.append(random.randrange(50))
-    lista_dois.append(random.randrange(50))
+    lista_um.append(random.randrange(10, 50))
+    lista_dois.append(random.randrange(10, 50))
 
 for i in range(10):
     lista_tres.append(lista_um[i])
