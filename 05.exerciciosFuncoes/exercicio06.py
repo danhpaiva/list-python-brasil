@@ -5,6 +5,9 @@
 # Registre a informação A.M./P.M. como um valor ‘A’ para A.M. e ‘P’ para P.M.
 # Assim, a função para efetuar as conversões terá um parâmetro formal para registrar se é A.M. ou P.M.
 # Inclua um loop que permita que o usuário repita esse cálculo para novos valores de entrada todas as vezes que desejar.
+# -------------
+# author: Paiva
+# -------------
 import os
 
 
