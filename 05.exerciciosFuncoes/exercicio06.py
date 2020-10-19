@@ -31,6 +31,8 @@ while retry == 1:
     print('\tConversor de Horas\n')
     hour = int(input('Digite a hora para a conversão: '))
     minute = int(input('Digite os minutos: '))
+    A = 'A.M'
+    P = 'P.M'
     print_message(hour, minute)
     retry = int(input('Realizar mais uma conversão: [1]Sim | [2]Não'))
 print('Até mais!')
