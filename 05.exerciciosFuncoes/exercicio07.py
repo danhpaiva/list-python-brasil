@@ -45,6 +45,7 @@ while repetir != 0:
     if repetir == 0:
         diasAtraso = 0
         quantPrestacao += -1
+        os.system('cls')
         break
     diasAtraso = int(input('Informe quantos dias estão em atraso: '))
     print(
