@@ -2,7 +2,7 @@
 
 Lista retirada do endereço: https://wiki.python.org.br/ListaDeExercicios
 
-## Descrição
+## :page_facing_up: Descrição
 Esta é uma lista com sugestões de programas para iniciantes em programação.<br> 
 Os exercícios podem ser implementados em pseudo-código, Python, C, C++, Java, Pascal ou em qualquer outra linguagem.<br>
 Os exercícios estão divididos em categorias e procuram obedecer uma ordem de dificuldade crescente.<br>
@@ -19,9 +19,10 @@ Tópicos abordados:
 - Exercícios Classes
 - Lista de Exercícios Projetos
 
-## :computer: Ferramentas utilizadas:
+## :toolbox: Ferramentas utilizadas:
 
 - Visual Studio Code
+- Python 3.9.0
 
 ## :lock: Licença
 
