@@ -6,7 +6,6 @@
   <a href="#">
     <img src="images\pythonbrasil_logo.png" width="300" alt="Python Brazil">
   </a>
-  <p>List taken from the address: https://wiki.python.org.br/ListaDeExercicios</p>
 </p>
 
 <p align="center">
@@ -23,6 +22,8 @@
 </h2>
 
 <h2 id=objective>📜 Objective</h2>
+
+<p>List taken from the address: https://wiki.python.org.br/ListaDeExercicios</p>
 
 This is a list of suggested programs for programming beginners.<br>
 Exercises can be implemented in pseudo-code, Python, C, C++, Java, Pascal or any other language.<br>
